@@ -14,7 +14,7 @@ spec:
           - mountPath: /mnt/82061375
             name: "82061375-volume"
             readOnly: false
-            subPath: 82061375
+            subPath: "82061375"
           - mountPath: /config
             name: application-properties
             readOnly: true
