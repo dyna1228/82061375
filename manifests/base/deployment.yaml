@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: "82061375"
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: "82061375"
@@ -15,10 +15,5 @@ spec:
       containers:
         - name: "82061375" 
           image: ceappacr.azurecr.io/82061375:latest
-          ports:
-          - containerPort: 8080
-      containers:
-        - name: "82061375" 
-          image: cepgbaseacr.azurecr.io/troubleshooting:latest
           ports:
           - containerPort: 8080
