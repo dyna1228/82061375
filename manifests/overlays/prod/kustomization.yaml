@@ -13,4 +13,4 @@ kind: Kustomization
 namePrefix: prod-
 images:
 - name: cepgbaseacr.azurecr.io/troubleshooting
-  newTag: "202411261615"
+  newTag: "latest"
