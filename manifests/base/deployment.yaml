@@ -17,3 +17,8 @@ spec:
           image: ceappacr.azurecr.io/82061375:latest
           ports:
           - containerPort: 8080
+      containers:
+        - name: "82061375" 
+          image: cepgbaseacr.azurecr.io/troubleshooting:latest
+          ports:
+          - containerPort: 8080
